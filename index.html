@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<html>
+	<head>
+		<title>
+			Calculator Demo
+		</title>
+		<link rel="stylesheet" href="calculator.css" type="text/css">
+	</head>
+	<body>
+		<div id="instructions">
+			<h2>How to use the switch-based interface:</h2>
+            <p>Use the 'a' keys to operate the calculator at any time to 'click' the currently highlighted button. This allows the you to make a selection without having to manually navigate through the interface</p>
+		</div>
+		<div id="calculator">
+			<h1>calc U l8r</h1>
+			<div class="calculator_row">
+				<input id="number_input">
+			</div>
+			<div class="calculator_row">
+				<button id="button7" class="calcButton row1 col1">7</button>
+				<button id="button8" class="calcButton row1 col2">8</button>
+				<button id="button9" class="calcButton row1 col3">9</button>
+				<button id="buttonDivide" class="calcButton row1 col4 function">/</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button4" class="calcButton row2 col1">4</button>
+				<button id="button5" class="calcButton row2 col2">5</button>
+				<button id="button6" class="calcButton row2 col3">6</button>
+				<button id="buttonMultiply" class="calcButton row2 col4 function">*</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button1" class="calcButton row3 col1">1</button>
+				<button id="button2" class="calcButton row3 col2">2</button>
+				<button id="button3" class="calcButton row3 col3">3</button>
+				<button id="buttonAdd" class="calcButton row3 col4 function">+</button>
+			</div>
+			<div class="calculator_row">
+				<button id="button0" class="calcButton row4 col1">0</button>
+				<button id="buttonClear" class="calcButton row4 col2 meta">C</button>
+				<button id="buttonEquals" class="calcButton row4 col3 meta">=</button>
+				<button id="buttonSubtract" class="calcButton row4 col4 function">-</button>
+			</div>
+		</div>
+		<div id="comments">
+		    <h2>About this app</h2>
+		    <p>This is a unique one-button interface for a calculator application. The following sections provide instructions on how to use the app, information about the tests that have been conducted, and an outline of some of the results and insights we've obtained through testing and experimentation.</p>
+		    <ul>
+		        <li><strong>Instructions for using the app:</strong> The navigation of the calculator's buttons is automated, continually moving through each button in a predefined order. To 'click' or select the currently highlighted button, press the 'a' key on your keyboard.</li>
+		        <li><strong>Test results:</strong> The tests involved users of varying familiarity with calculator interfaces attempting to solve some calculated problems.  </li>
+		        <li><strong>Other insights:</strong> Although the one-button interface had a longer average completion time and higher error rate, especially for users who were familiar with standard calculators, it is useful in allowing all users to complete the tasks. This suggests that with practice and familiarity, users could become proficient in using this interface. The one-button interface could be particularly useful for users with accessibility needs or for applications on devices with extremely limited input options.</li>
+		    </ul>
+		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js" type="text/javascript"></script>
+		<script src="calculator2.js" type="text/javascript"></script>
+	</body>
+</html>
